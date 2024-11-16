@@ -4,7 +4,7 @@
 
 # Site
 title: 我的博客
-subtitle: "powered by Hexo"
+subtitle: "用于记录学习笔记和日常生活"
 description: "用于记录学习笔记和日常生活的博客"
 keywords:
 author: Liu Ziyuan
@@ -104,3 +104,4 @@ deploy:
   type: git
   repo: https://github.com/LiuZiyuan-CS/LiuZiyuan-CS.githubio.git
   branch: main
+  message: "Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }}"
