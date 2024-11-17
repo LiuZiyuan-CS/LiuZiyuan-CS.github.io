@@ -13,7 +13,7 @@ timezone: "Asia/Shanghai"
 
 # URL
 ## Set your site url here. For example, if you use GitHub Page, set url as 'https://username.github.io/project'
-url: http://example.com
+url: https://liuziyuan-cs.github.io/
 permalink: :year/:month/:day/:title/
 permalink_defaults:
 pretty_urls:
@@ -99,7 +99,11 @@ ignore:
 theme: next
 
 # Deployment
-
+deploy:
+  type: git
+  repo: https://github.com/LiuZiyuan-CS/LiuZiyuan-CS.github.io.git
+  branch: gh-pages
+  # message: Site updated: {{ now('YYYY-MM-DD HH:mm:ss') }})
 # hexo-generator-searchdb
 search:
   path: search.xml
